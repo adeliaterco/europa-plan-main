@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { useRouter } from "next/navigation"
 import Image from "next/image"
 
-// GA otimizado - só envia quando necessário
+// GA optimizado - solo envía cuando es necesario
 const enviarEvento = (() => {
   let queue = [];
   let timeout;
@@ -35,7 +35,7 @@ export default function HomePage() {
   const [isOnline, setIsOnline] = useState(true);
   const [imagesLoaded, setImagesLoaded] = useState(false);
 
-  // Preload crítico das imagens
+  // Precarga crítica de las imágenes
   useEffect(() => {
     const preloadImages = async () => {
       const imageUrls = [
@@ -62,7 +62,7 @@ export default function HomePage() {
     }
   }, []);
 
-  // Detecção de conexão minimalista
+  // Detección de conexión minimalista
   useEffect(() => {
     if (typeof window === 'undefined') return;
     
@@ -77,7 +77,7 @@ export default function HomePage() {
     };
   }, []);
 
-  // Tracking minimalista - só o essencial
+  // Seguimiento minimalista - solo lo esencial
   useEffect(() => {
     if (typeof window === 'undefined') return;
     
@@ -90,7 +90,7 @@ export default function HomePage() {
     return () => clearTimeout(timer);
   }, []);
 
-  // Função de início ultra-otimizada
+  // Función de inicio ultra-optimizada
   const handleStart = useCallback(() => {
     if (isLoading || !isOnline) return;
 
@@ -107,7 +107,7 @@ export default function HomePage() {
       if (progress >= 100) {
         clearInterval(interval);
         
-        // Preservar UTMs
+        // Conservar UTMs
         let url = '/quiz/1';
         if (typeof window !== 'undefined' && window.location.search) {
           const params = new URLSearchParams(window.location.search);
@@ -135,7 +135,7 @@ export default function HomePage() {
     }}>
       
       <style jsx>{`
-        /* BOTÃO VERMELHO PULSANTE */
+        /* BOTÓN ROJO PULSANTE */
         .btn-vermelho-pulsante {
           background: #dc2626 !important;
           color: white !important;
@@ -172,7 +172,7 @@ export default function HomePage() {
           transform: scale(1.1) !important;
         }
         
-        /* CONTAINER PRETO */
+        /* CONTENEDOR NEGRO */
         .container-preto {
           background-color: #000000 !important;
           border: 2px solid #333333 !important;
@@ -183,7 +183,7 @@ export default function HomePage() {
           text-align: center !important;
         }
         
-        /* TEXTOS BRANCOS */
+        /* TEXTOS BLANCOS */
         .texto-branco {
           color: #ffffff !important;
         }
@@ -202,7 +202,7 @@ export default function HomePage() {
           margin-bottom: 30px !important;
         }
         
-        /* DEPOIMENTO - OTIMIZADO PARA MOBILE */
+        /* TESTIMONIO - OPTIMIZADO PARA MÓVIL */
         .depoimento {
           position: absolute;
           top: 20px;
@@ -246,7 +246,7 @@ export default function HomePage() {
           line-height: 1.3;
         }
         
-        /* 🎯 LOGO CENTRALIZADA - AJUSTE PRINCIPAL */
+        /* 🎯 LOGO CENTRADO - AJUSTE PRINCIPAL */
         .logo-container {
           display: flex;
           justify-content: center;
@@ -270,7 +270,7 @@ export default function HomePage() {
           box-shadow: 0 0 30px rgba(220, 38, 38, 0.5) !important;
         }
         
-        /* ANIMAÇÕES PARA LOGO */
+        /* ANIMACIONES PARA LOGO */
         @keyframes fadeInDown {
           from {
             opacity: 0;
@@ -293,7 +293,7 @@ export default function HomePage() {
           }
         }
         
-        /* TÍTULO COM ANIMAÇÃO */
+        /* TÍTULO CON ANIMACIÓN */
         .titulo-principal {
           animation: fadeInUp 1s ease-out 0.3s both !important;
         }
@@ -302,7 +302,7 @@ export default function HomePage() {
           animation: fadeInUp 1s ease-out 0.6s both !important;
         }
         
-        /* LOADING */
+        /* CARGA */
         .loading-overlay {
           position: fixed;
           top: 0;
@@ -336,7 +336,7 @@ export default function HomePage() {
           transition: width 0.3s ease;
         }
         
-        /* RESPONSIVO MOBILE-FIRST */
+        /* RESPONSIVO MÓVIL-PRIMERO */
         @media (max-width: 768px) {
           .container-preto {
             padding: 25px !important;
@@ -443,7 +443,7 @@ export default function HomePage() {
           }
         }
         
-        /* OTIMIZAÇÃO DE ESPAÇAMENTO */
+        /* OPTIMIZACIÓN DE ESPACIADO */
         .main-content {
           display: flex;
           flex-direction: column;
@@ -461,11 +461,11 @@ export default function HomePage() {
         }
       `}</style>
 
-      {/* Loading overlay */}
+      {/* Superposición de carga */}
       {isLoading && (
         <div className="loading-overlay">
           <div className="loading-content">
-            <div>Preparación de la prueba...</div>
+            <div>Preparando el test...</div>
             <div className="progress-bar">
               <div 
                 className="progress-fill"
@@ -476,7 +476,7 @@ export default function HomePage() {
         </div>
       )}
 
-      {/* Error message */}
+      {/* Mensaje de error */}
       {errorMessage && (
         <div style={{
           position: 'fixed',
@@ -508,7 +508,7 @@ export default function HomePage() {
         </div>
       )}
 
-      {/* Offline indicator */}
+      {/* Indicador sin conexión */}
       {!isOnline && (
         <div style={{
           position: 'fixed',
@@ -521,26 +521,26 @@ export default function HomePage() {
           padding: '10px',
           zIndex: 1000
         }}>
-          ⚠️ Sem conexão com a internet
+          ⚠️ Sin conexión a internet
         </div>
       )}
 
-      {/* DEPOIMENTO - Agora mais próximo do container */}
+      {/* TESTIMONIO - Ahora más cerca del contenedor */}
       <div className="depoimento">
         <div className="avatar"></div>
         <div>
           <div className="estrelas">★★★★★</div>
-          <div className="nome-usuario">Pablo Alvez (@Plaboalvezs)</div>
+          <div className="nome-usuario">Pablo Álvez (@Pabloalvezs)</div>
           <div className="texto-depoimento">"Seguí y repetí tu Método de los 3 Pasos como unas 30 veces jajajaja ¡y funcionó de manera increíble!"</div>
         </div>
       </div>
 
-      {/* CONTEÚDO PRINCIPAL */}
+      {/* CONTENIDO PRINCIPAL */}
       <div className="main-content">
         
         <div className="container-preto">
           
-          {/* 🎯 LOGO CENTRALIZADA - CONTAINER DEDICADO */}
+          {/* 🎯 LOGO CENTRADO - CONTENEDOR DEDICADO */}
           <div className="logo-container">
             <Image
               src="https://comprarplanseguro.shop/wp-content/uploads/2025/06/Red-Gradient-Profile-Photo-Instagram-Post.png"
@@ -557,7 +557,7 @@ export default function HomePage() {
 
           {/* Título */}
           <h1 className="titulo-principal">
-            Hago que incluso los casos más difíciles de infidelidad regresen al 100% en piloto automático.
+            Consigo que incluso los casos más difíciles de infidelidad vuelvan al 100% en piloto automático.
           </h1>
           
           {/* Subtítulo */}
@@ -565,7 +565,7 @@ export default function HomePage() {
             Sin juegos mentales, solo el poder del método correcto
           </p>
 
-          {/* Botão CTA */}
+          {/* Botón CTA */}
           <button
             onClick={handleStart}
             disabled={isLoading || !isOnline}
