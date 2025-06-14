@@ -312,8 +312,8 @@ const getPersonalizedTitle = () => {
                       <h4 className="font-bold text-orange-800">PLAN A</h4>
                       <p className="text-sm text-gray-700">Sistema Completo de Reconquista</p>
                       <div className="mt-1">
-                        <span className="text-sm text-gray-500 line-through">$97</span>
-                        <span className="ml-2 text-green-600 font-bold">$9</span>
+                        <span className="text-sm text-gray-500 line-through">€97</span>
+                        <span className="ml-2 text-green-600 font-bold">€9</span>
                       </div>
                     </div>
                   </motion.div>
@@ -345,7 +345,7 @@ const getPersonalizedTitle = () => {
                       <h4 className="font-bold text-orange-800">21 GATILLOS EMOCIONALES</h4>
                       <p className="text-sm text-gray-700">Activa el Deseo Inmediato</p>
                       <div className="mt-1">
-                        <span className="text-sm text-gray-500 line-through">$47</span>
+                        <span className="text-sm text-gray-500 line-through">€47</span>
                         <span className="ml-2 text-green-600 font-bold">GRATIS</span>
                       </div>
                     </div>
@@ -912,7 +912,7 @@ const getPersonalizedTitle = () => {
                           <p className="text-sm mb-2">
                             21 técnicas psicológicas que despiertan sentimientos profundos en {getPersonalizedPronoun()}. Cada gatillo incluye exactamente qué decir y cuándo usarlo.
                           </p>
-                          <div className="text-yellow-300 font-bold">Valor: $47 → GRATIS</div>
+                          <div className="text-yellow-300 font-bold">Valor: €47 → GRATIS</div>
                         </div>
                         
                         <div className="bg-gray-800/70 p-4 rounded-lg border border-yellow-500">
@@ -920,7 +920,7 @@ const getPersonalizedTitle = () => {
                           <p className="text-sm mb-2">
                             Guía paso a paso para situaciones críticas donde necesitas actuar rápidamente para evitar perder a {getPersonalizedPronoun()} para siempre.
                           </p>
-                          <div className="text-yellow-300 font-bold">Valor: $37 → GRATIS</div>
+                          <div className="text-yellow-300 font-bold">Valor: €37 → GRATIS</div>
                         </div>
                       </div>
                     </div>
@@ -973,21 +973,21 @@ const getPersonalizedTitle = () => {
                 <tr className="border-b border-gray-800">
                   <td className="p-4 text-white font-medium">Terapia de Pareja</td>
                   <td className="p-4 text-center text-gray-300">3-6 meses</td>
-                  <td className="p-4 text-center text-gray-300">$150 - $360</td>
+                  <td className="p-4 text-center text-gray-300">€150 - €360</td>
                   <td className="p-4 text-center text-gray-300">40-60%</td>
                   <td className="p-4 text-center text-gray-300">❌</td>
                 </tr>
                 <tr className="border-b border-gray-800">
                   <td className="p-4 text-white font-medium">Intentar solo</td>
                   <td className="p-4 text-center text-gray-300">Indefinido</td>
-                  <td className="p-4 text-center text-gray-300">$0</td>
+                  <td className="p-4 text-center text-gray-300">€0</td>
                   <td className="p-4 text-center text-gray-300">15-20%</td>
                   <td className="p-4 text-center text-gray-300">❌</td>
                 </tr>
                 <tr className="bg-gradient-to-r from-orange-900/30 to-orange-800/30">
                   <td className="p-4 text-orange-400 font-bold">PLAN A - RECUPERACIÓN RÁPIDA</td>
                   <td className="p-4 text-center text-orange-300 font-bold">21 días</td>
-                  <td className="p-4 text-center text-orange-300 font-bold">$9</td>
+                  <td className="p-4 text-center text-orange-300 font-bold">€9</td>
                   <td className="p-4 text-center text-orange-300 font-bold">87-97%</td>
                   <td className="p-4 text-center text-green-400">✅</td>
                 </tr>
@@ -1225,7 +1225,7 @@ const getPersonalizedTitle = () => {
                     <div>
                       <h4 className="text-xl font-bold text-yellow-400">BONO #1: 21 GATILLOS EMOCIONALES</h4>
                       <div className="flex items-center mt-1">
-                        <span className="text-gray-400 line-through mr-2">$47</span>
+                        <span className="text-gray-400 line-through mr-2">€47</span>
                         <span className="text-green-400 font-bold">GRATIS</span>
                       </div>
                     </div>
@@ -1265,7 +1265,7 @@ const getPersonalizedTitle = () => {
                     <div>
                       <h4 className="text-xl font-bold text-yellow-400">BONO #2: PROTOCOLO DE EMERGENCIA</h4>
                       <div className="flex items-center mt-1">
-                        <span className="text-gray-400 line-through mr-2">$37</span>
+                        <span className="text-gray-400 line-through mr-2">€37</span>
                         <span className="text-green-400 font-bold">GRATIS</span>
                       </div>
                     </div>
@@ -1298,7 +1298,7 @@ const getPersonalizedTitle = () => {
             
             <div className="mt-6 text-center">
               <p className="text-yellow-300 font-bold mb-4">
-                VALOR TOTAL DE LOS BONOS: <span className="text-2xl">$84</span> - HOY INCLUIDOS GRATIS
+                VALOR TOTAL DE LOS BONOS: <span className="text-2xl">€84</span> - HOY INCLUIDOS GRATIS
               </p>
             </div>
           </div>
@@ -1338,8 +1338,8 @@ const getPersonalizedTitle = () => {
                         <span className="font-bold text-xl">PLAN A: Sistema Completo</span>
                         <p className="text-sm text-gray-200">Sistema paso a paso de 21 días con los 4 módulos completos</p>
                         <div className="mt-1">
-                          <span className="text-gray-300 line-through mr-2">$97</span>
-                          <span className="text-yellow-300 font-bold">$9</span>
+                          <span className="text-gray-300 line-through mr-2">€97</span>
+                          <span className="text-yellow-300 font-bold">€9</span>
                         </div>
                       </div>
                     </li>
@@ -1352,7 +1352,7 @@ const getPersonalizedTitle = () => {
                         <span className="font-bold text-xl">BONO #1: 21 Gatillos Emocionales</span>
                         <p className="text-sm text-gray-200">Técnicas psicológicas que aceleran todo el proceso de reconquista</p>
                         <div className="mt-1">
-                          <span className="text-gray-300 line-through mr-2">$47</span>
+                          <span className="text-gray-300 line-through mr-2">€47</span>
                           <span className="text-green-400 font-bold">GRATIS</span>
                         </div>
                       </div>
@@ -1366,7 +1366,7 @@ const getPersonalizedTitle = () => {
                         <span className="font-bold text-xl">BONO #2: Protocolo de Emergencia</span>
                         <p className="text-sm text-gray-200">Guía para situaciones críticas en las primeras 72 horas</p>
                         <div className="mt-1">
-                          <span className="text-gray-300 line-through mr-2">$37</span>
+                          <span className="text-gray-300 line-through mr-2">€37</span>
                           <span className="text-green-400 font-bold">GRATIS</span>
                         </div>
                       </div>
@@ -1379,14 +1379,14 @@ const getPersonalizedTitle = () => {
                     <div className="text-left">
                       <h5 className="font-bold text-yellow-300 mb-1">VALOR TOTAL:</h5>
                       <div className="text-2xl font-bold text-white">
-                        <span className="line-through text-gray-400">$181</span>
-                        <span className="ml-2 text-yellow-300">$9</span>
+                        <span className="line-through text-gray-400">€181</span>
+                        <span className="ml-2 text-yellow-300">€9</span>
                       </div>
                     </div>
                     
                     <div className="text-left">
                       <h5 className="font-bold text-yellow-300 mb-1">TU AHORRO:</h5>
-                      <div className="text-2xl font-bold text-green-400">$172</div>
+                      <div className="text-2xl font-bold text-green-400">€172</div>
                     </div>
                     
                     <div className="text-left">
@@ -1552,7 +1552,7 @@ const getPersonalizedTitle = () => {
                 <CountdownTimer minutes={15} seconds={0} />
               </div>
               <p className="text-white text-sm">
-                Después de este tiempo, el precio volverá a $97 y los bonos ya no estarán disponibles.
+                Después de este tiempo, el precio volverá a €97 y los bonos ya no estarán disponibles.
               </p>
             </div>
             
