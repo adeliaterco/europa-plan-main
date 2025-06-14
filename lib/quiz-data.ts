@@ -246,7 +246,7 @@ export const quizSteps = [
       masculino: ["¡SÍ, QUIERO RECONQUISTARLA AHORA!"],
       feminino: ["¡SÍ, QUIERO RECONQUISTARLO AHORA!"],
     },
-    note: "¡Incluye los 2 bonos exclusivos (valor total: $84) que aceleran tu reconquista!",
+    note: "¡Incluye los 2 bonos exclusivos (valor total: €84) que aceleran tu reconquista!",
     elements: {
       plan21Days: true,
       profileComplete: "100%",
@@ -325,7 +325,7 @@ export const socialProofMessages = [
   "¡Estás entre el 17% más determinado a reconquistar!",
   "¡Tu perfil muestra compatibilidad!",
   "¡Bonificación liberada por desbloqueo!",
-  "¡Has desbloqueado los 2 bonos - valor total de $84!",
+  "¡Has desbloqueado los 2 bonos - valor total de €84!",
   "El 87% de las personas en tu situación lograron resultados en menos de 14 días",
   "Estás más comprometido que el 73% de las personas que hicieron esta prueba",
 ]
