@@ -586,7 +586,7 @@ export default function HomePage() {
               </span>
             ) : (
               <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                EMPEZAR AHORA
+                INICIAR PRUEBA
                 <ArrowRight style={{ marginLeft: '10px', width: '20px', height: '20px' }} />
               </span>
             )}
